@@ -1,4 +1,7 @@
 {
+  "name": "HairDay",
+  "description": "Aplicação Web para agendamento de corte de cabelo",
+  "author": "Tiago Martins",
   "scripts": {
     "server": "json-server --watch server.json --port=3333"
   },
