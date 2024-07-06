@@ -3,14 +3,16 @@
   "description": "Aplicação Web para agendamento de corte de cabelo",
   "author": "Tiago Martins",
   "scripts": {
-    "server": "json-server --watch server.json --port=3333",
-    "build": "webpack"
+    "build": "webpack",
+    "dev": "webpack serve",
+    "server": "json-server --watch server.json --port=3333"
   },
   "dependencies": {
     "json-server": "^1.0.0-beta.1"
   },
   "devDependencies": {
     "webpack": "^5.92.1",
-    "webpack-cli": "^5.1.4"
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4"
   }
 }
