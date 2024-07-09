@@ -6,7 +6,7 @@ Foi utilizado o webpack junto com o babel para melhorar o desempenho e portabili
 
 Para simular a api de agendamento foi utilizado o json-server.
 
-Demo: <https://tiagomartinscc.github.io/hairday>
+Demo: <https://tiagomartinscc.github.io/HairDay/>
 
 <img src="src/assets/project.png">
 
