@@ -6,6 +6,9 @@ import { hoursClick } from "./hour-click.js"
 const hours = document.getElementById('hours')
 
 export function hoursLoad({date}) {
+  // limpa lista de horarios
+  hours.innerHTML = ""
+
   const opening = openingHours.map( (hour) => {
     const [scheduleHour] = hour.split(":")
     const available = dayjs(date).add(scheduleHour, "hour").isAfter(dayjs())
